@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hina+Mincho&display=swap" rel="stylesheet">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Patua+One&family=Staatliches&family=Viga&display=swap" rel="stylesheet">
+  
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Courgette&family=Patua+One&family=Shadows+Into+Light&family=Staatliches&family=Viga&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <title>Magic Notes App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <nav class="navbar" id="navBar">
+    <div class="navbar-container">
+      <h1>Magic Notes</h1>
+      <button class="button-ican" onclick="my()">
+        <i class="fa-solid fa-magnifying-glass" id="SearchIcon"></i>
+      </button>
+    </div>
+    
+    <div id="form">
+
+      <form class="search-note" id="formId">
+        
+        <input id="searchNotes" class="serachInput" type="search" placeholder="Search Note" aria-label="Search">
+        
+        <button class="srach-btn" type="button">Search</button>
+        
+      </form>
+      
+    </div>
+  </nav>
+  <div class="container-fluid" id="mainid">
+    
+    <div id="alert">
+      <h3 id="alert1">Place fill the Note!</h3>
+      <h3 id="alert2">Successful Save Your Note</h3>
+    </div>
+    
+    <div class="textArea">
+      <h1 class="fristh1">Welcome to Magic Notes</h1>
+      <br />
+      <label>Add a notes</label>
+      <br />
+      <input type="text" id="titleTxt" placeholder="Input title" />
+      <textarea class="text" name="text" id="textId" rows="4" cols="40" placeholder="Input Note"></textarea>
+      <br />
+      <button id="addBtn">Add Note</button>
+      <br />
+      <br />
+      <br />
+      <h1 class="sdh1">Your Notes</h1>
+      <br>
+      <h5 id="h5Id">Nothing to show! Use "Add a Note" section to add notes</h5>
+    </div>
+    <div class="add-note" id="note"></div>
+  </div>
+  <script src="main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,425 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+#alert{
+  
+  display:;
+}
+
+#alert1{
+  background-color: rgba(0, 0, 0, .6);
+  display: inline-block;
+  color: red;
+  width: 300px;
+  margin: 5px auto;
+  padding: 5px;
+  border-radius: 12px;
+  display: none;
+}
+
+#alert2{
+  background-color: rgba(0, 989, 0, .6);
+  display: inline-block;
+  color: white;
+  width: 300px;
+  margin: 5px auto;
+  padding: 5px;
+  border-radius: 12px;
+  display: none;
+}
+
+.navbar {
+  height: 100px;
+  width: 100%;
+  background-color: white;
+  box-shadow: 0 7px 8px darkgray;
+}
+
+.navbar h1 {
+  font-size: 3em;
+  color: deeppink;
+  text-shadow: 2px 2px 3px gray;
+  position: absolute;
+  top: 20px;
+  left: 10px;
+  font-family: 'Patua One', cursive;
+  /*font-family: 'Patua One', cursive;
+  font-family: 'Staatliches', cursive;
+  font-family: 'Viga', sans-serif;*/
+}
+
+.navbar .button-ican{
+  display: none;
+}
+
+.navbar h2 {
+  height: 32px;
+  width: 80px;
+  text-align: center;
+  background-color: rgba(182, 138, 162, .4);
+  border-radius: 4px;
+  position: absolute;
+  top: 34px;
+  left: 310px;
+}
+
+.navbar form h2 {
+  display: none;
+}
+
+.navbar form {
+  display: block;
+  position: absolute;
+  top: 35px;
+  right: 20px;
+}
+
+.navbar form input {
+  height: 30px;
+  width: auto;
+  border: none;
+  border: 1px solid gray;
+  padding: 0 4px;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.navbar form button {
+  height: 25px;
+  width: 60px;
+  font-weight: bold;
+  border: none;
+  border: 2px solid limegreen;
+  border-radius: 4px;
+  color: limegreen;
+  background-color: rgba(0, 0, 0, .2);
+  position: relative;
+  left: 10px;
+}
+
+.container-fluid {
+  height: auto;
+  width: 545px;
+  text-align: center;
+  background-color: #EEEEEE;
+  margin-top: 25px;
+  border: none;
+  border-radius: 10px;
+  position: relative;
+  left: 220px;
+  overflow: hidden;
+}
+
+.container-fluid .textArea .fristh1 {
+  margin-bottom: 20px;
+  color: #11D8D1;
+  text-shadow: 2px 2px 2px #696F6C;
+  font-family: 'Patua One', cursive;
+  /* font-family: 'Allison', cursive;*/
+}
+
+#font {
+  font-family: 'Courgette', cursive;
+  padding: 5px;
+  color: deeppink;
+  font-weight: bold;
+}
+
+.container-fluid .textArea .text {
+  height: 55px;
+  width: 280px;
+  min-width: 280px;
+  max-width: 280px;
+  min-height: 50px;
+  padding: 5px;
+  border: .5px solid darkgray;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+  position: relative;
+  top: -15px;
+  left: -7px;
+
+}
+
+/*.container-fluid label {
+  font-family: 'Patua One', cursive;
+  position: absolute;
+  top: 30px;
+  left: 12px;
+}*/
+
+.container-fluid .textArea label {
+  font-weight: bold;
+  color: royalblue;
+  position: relative;
+  top: -20px;
+  left: -110px;
+}
+
+.container-fluid .textArea button {
+  height: 30px;
+  width: 70px;
+  border: none;
+  border-radius: 4px;
+  font-weight: bold;
+  font-size: 15px;
+  background-color: limegreen;
+  color: white;
+  position: relative;
+  top: -10px;
+  left: -117px;
+}
+
+.container-fluid .textArea button:hover{
+  cursor: pointer;
+  background-color: deepskyblue;
+  color: ;
+}
+
+.container-fluid .textArea input {
+  height: 28px;
+  width: 282px;
+  border: 0.5px solid darkgray;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  padding: 0 4px;
+  position: relative;
+  top: -20px;
+  left: -7.5px;
+}
+
+.container-fluid .textArea .sdh1 {
+  color: royalblue;
+  text-shadow: 2px 2px 2px #696F6C;
+  border-top: 0.1px solid #565656;
+  border-bottom: 0.1px solid #565656;
+}
+
+.container-fluid .add-note {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.container-fluid .add-note .notes {
+  height: auto;
+  width: 250px;
+  box-shadow: 6px 6px 4px gray;
+  background-color: lime;
+  border-radius: 4px;
+  margin: 10px;
+}
+
+.container-fluid .add-note .notes button {
+  height: 30px;
+  width: 90px;
+  border: none;
+  border-radius: 4px;
+  background-color: red;
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.container-fluid .add-note .notes button:hover{
+  background-color: darkred;
+}
+
+#h5Id {
+  padding-bottom: 5px;
+  background-color: red;
+  display: none;
+}
+
+/*Moblie*/
+
+@media only screen and (max-width: 700px) {
+  .navbar {
+    height: 70px;
+    width: 100%;
+    background-color: white;
+    color: white;
+    text-align: center;
+    box-shadow: 4px 4px 8px darkgray;
+    position: relative;
+    z-index: 1;
+  }
+
+  .navbar-container {
+    height: 70px;
+    width: 100%;
+    background-color: white;
+    color: white;
+    text-align: center;
+    box-shadow: 4px 4px 8px darkgray;
+    position: relative;
+    z-index: 3;
+    position: relative;
+
+  }
+
+  .navbar h1 {
+    font-size: 2.3em;
+    color: deeppink;
+    position: absolute;
+    top: 10px;
+    left: 15px;
+  }
+
+  #form {
+    height: 90px;
+    width: 100%;
+    display: inline-block;
+    background-color: rgba(0, 0, 0, .4);
+    position: relative;
+    top: -100px;
+    z-index: 0.4;
+    transition: all 0.2s ease-in;
+  }
+
+  #form form input {
+    height: 30px;
+    width: 300px;
+    border: none;
+    border: 1px solid gray;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-top: 5px;
+    position: relative;
+    top: -25px;
+    left: 10px;
+  }
+
+  .navbar form button {
+    height: 25px;
+    width: 60px;
+    font-weight: bold;
+    border: none;
+    border: 2px solid limegreen;
+    border-radius: 4px;
+    color: limegreen;
+    background-color: rgba(0, 0, 0, .2);
+    position: relative;
+    top: -15px;
+    left: -109px;
+  }
+
+  .navbar form h2 {
+    height: 32px;
+    width: 80px;
+    text-align: center;
+    background-color: rgba(182, 138, 162, .4);
+    border-radius: 4px;
+    display: block;
+    position: relative;
+    top: 10px;
+    left: 40px;
+  }
+
+ .navbar .button-ican {
+    height: 45px;
+    width: 45px;
+    text-align: center;
+    font-size: 33px;
+    font-weight: bolder;
+    border: none;
+    border-radius: 4px;
+    background-color: white;
+    display: inline-block;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+  
+  .navbar .button-ican:hover{
+    color: deepskyblue;
+    cursor: pointer;
+  }
+
+  .navbar h2 {
+    display: none;
+  }
+
+  .container-fluid {
+    height: auto;
+    width: 320px;
+    text-align: center;
+    background-color: #EEEEEE;
+    border: none;
+    display: block;
+    position: relative;
+    left: 20px;
+    overflow: hidden;
+    z-index: 0.2;
+  }
+
+  .container-fluid .textArea .text {
+    height: auto;
+    width: 280px;
+    min-width: 280px;
+    max-width: 280px;
+    min-height: 60px;
+    padding: 5px;
+    border: .5px solid darkgray;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    position: relative;
+    left: -5px;
+    top: -15px;
+
+  }
+
+  .container-fluid .textArea label {
+    font-weight: bold;
+    position: relative;
+    left: -106px;
+    top: -20px;
+  }
+
+  .container-fluid .textArea button {
+    height: 30px;
+    width: 80px;
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 15px;
+    background-color: limegreen;
+    color: white;
+    position: relative;
+    top: -10px;
+    left: -110px;
+  }
+
+  .container-fluid .textArea input {
+    padding: 0px 5px;
+    display: inline-block;
+    width: 280px;
+    position: relative;
+    top: -20px;
+    left: -5px;
+  }
+
+  .container-fluid .textArea .sdh1 {}
+
+  .container-fluid .add-note .notes {
+    height: auto;
+    width: 250px;
+    border: 1px solid darkgray;
+    border-radius: 4px;
+    margin: 10px;
+    position: relative;
+  }
+
+  .container-fluid .add-note .notes button {
+    height: 30px;
+    width: 90px;
+    border: none;
+    border-radius: 4px;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+  }
+}
