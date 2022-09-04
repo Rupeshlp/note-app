@@ -84,6 +84,7 @@
   padding: 0 4px;
   font-weight: bold;
   border-radius: 5px;
+  outline: none;
 }
 
 .navbar form button {
@@ -140,6 +141,7 @@
   position: relative;
   top: -15px;
   left: -7px;
+  outline: none;
 
 }
 
@@ -188,6 +190,7 @@
   position: relative;
   top: -20px;
   left: -7.5px;
+  outline: none;
 }
 
 .container-fluid .textArea .sdh1 {
